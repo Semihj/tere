@@ -1,0 +1,29 @@
+@import "tailwindcss";
+
+html,body {
+  scroll-behavior: smooth;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+@font-face {
+  font-family: "Gilroy-Bold";
+  src: local("Gilroy-Bold"), url(./fonts/Gilroy-Bold.ttf) format("truetype");
+}
+
+@font-face {
+  font-family: 'Gilroy';
+  src: local('Gilroy-Medium'), url(./fonts/Gilroy-Medium.ttf) format('truetype');
+}
+
+@font-face {
+  font-family: 'Gilroy-Light';
+  src: local('Gilroy-Light'), url(./fonts/Gilroy-Light.ttf) format('truetype');
+}
+
+body {
+  font-family: Gilroy, sans-serif;
+  
+}
